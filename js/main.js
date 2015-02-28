@@ -1,10 +1,10 @@
-var $theColour = $('#to-do');
+var $form = $('.form');
 
 
 
 $form.on('submit', function(e) {  
     e.preventDefault();
-$form.css('background-color', $to-do.val());
+    console.log('submitted!')'
 });
 
 
