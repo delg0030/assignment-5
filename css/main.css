@@ -22,11 +22,21 @@ html {
 }
 
 
-
-.circle {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    background-color: #FF2255;
+.surround {
+    text-align: center;
+    background-color: #D4D4D4;
     position: absolute;
+    margin: 0 ;
+  
+}
+
+.button {
+    position: relative;
+    height: 20px;
+    font-family: serif;
+}
+
+js-strike {
+text-decoration: line-through;
+color: grey;
 }
