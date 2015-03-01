@@ -11,15 +11,14 @@ $form.on('submit', function (e) {
     
 var $li = $('<li>');    
 var $nameH4 = $('<h4>').html($name.val());
-var $ageP = $('<p>').html($age.val());
     
 $li.append($nameH4).append($ageP);
 $dinos.append($li);
 
 });
 
-$dinos.on('click', 'li', function() {
-    $(this).addClass('js-strike');
+$dinos.on('click', 'li', function () {
+    $(this).toggleClass('js-strike');
 });
 
 

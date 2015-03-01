@@ -22,21 +22,58 @@ html {
 }
 
 
+.js-strike {
+text-decoration: line-through;
+color: #D2D2D2;
+cursor: cell;
+}
+
+
+.label {
+    background-color: #D2D2D2;
+	padding: 2rem 2rem 4.5rem 2rem;
+	border-radius: 16px 16px 0 0;
+}    
+    
 .surround {
-    text-align: center;
-    background-color: #D4D4D4;
-    position: absolute;
-    margin: 0 ;
-  
+	margin: 3rem;
+	border-radius: 19px;
+	background-color: #D2D2D2;
+	padding-bottom: 50px;   
 }
 
 .button {
-    position: relative;
-    height: 20px;
     font-family: serif;
+    border-radius: 0 9px 9px 0;
+	border: gray 1px solid;
+	padding: .75rem 1.25rem .75rem 1.25rem;
+	font-size: 1rem;
+	line-height: 1rem;
+	float: left;
 }
 
-js-strike {
-text-decoration: line-through;
-color: grey;
+.name {
+    height: 2.25rem;
+	width: 70%;
+	border:2px solid #H2H2H2;
+	font-size: 1rem;
+	font-family: serif;
+	padding-left: .5rem;
+	float: left;   
+}
+
+.title {
+    display: block;
+	text-align: center;
+	font-size: 1.75rem;
+	padding-top: .25rem;
+	padding-bottom: .25rem;
+	line-height: 1.75rem;
+}   
+    
+.li {
+ list-style-type: none;
+	padding-left: 2rem;
+    
+    
 }
