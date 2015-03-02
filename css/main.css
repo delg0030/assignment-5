@@ -37,6 +37,7 @@ cursor: cell;
     
 .surround {
 	margin: 3rem;
+    padding: 2em;
 	border-radius: 19px;
 	background-color: #D2D2D2;
 	padding-bottom: 50px;   
@@ -94,9 +95,6 @@ cursor: cell;
 	background-color: #303030;
 }
 
-.add {
-	xpadding:.25rem;
-}
 
 h2 {
 	xdisplay: inline-block;
